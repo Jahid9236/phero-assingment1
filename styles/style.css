@@ -37,6 +37,8 @@
 
 #hero{
     background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    background-position: center;
     max-width: 1440px;
     height: 652px;
     left: 0;
@@ -199,7 +201,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 70px;
-    margin: 0 auto;
+    margin: 70px auto 0;
 }
 
 .video{
@@ -212,7 +214,7 @@
 .target{
     max-width: 1140px;
     height: 460px;
-    margin: 0 auto;
+    margin: 70px auto 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -272,6 +274,107 @@
 
 .content-js{
     background: rgba(255, 223, 0, 0.05);
+}
+
+/* section extra */
+
+.extra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    height: 120px;
+    background: rgb(255, 255, 255);
+    margin: 0 150px;
+}
+
+.resume-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 17px 24px 17px 24px;
+
+}
+
+.extra a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+
+.name{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* section support */
+
+.support{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+
+.input-text{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    width: 450px;
+    height: 57px;
+    margin: 0px 16px;
+}
+
+.submit{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin: 0px 16px;
+    padding: 17px 20px 17px 20px;
+    width: 120px;
+    height: 57px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+/* footer section */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    padding: 32px 150px 32px 150px;
+}
+
+.footer-text{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
 
